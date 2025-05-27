@@ -28,7 +28,7 @@ Months after her confrontation with the rogue AI, Dr. Aisha Verma has returned t
 # --- Robust image path handling ---
 img_path = os.path.join(os.path.dirname(__file__), "img_2.png")
 if os.path.exists(img_path):
-    st.image(img_path, caption="A dangerous rouge AI bot.", use_container_width=False)
+    st.image(img_path, caption="A dangerous rogue AI bot.", use_container_width=False)
 else:
     st.warning("Image 'img_2.png' not found in the app directory.")
 
